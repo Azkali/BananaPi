@@ -1,0 +1,22 @@
+[
+	{
+		"name": "RetroPie",
+		"route": "127.0.0.1:4200/",
+		"icon": "https://retropie.org.uk/wp-content/uploads/2016/04/RetroPie_Logo.png"
+	},
+	{
+		"name": "Mopidy-Iris",
+		"route": "127.0.0.1:6680/Iris",
+		"icon": "https://raw.githubusercontent.com/jaedb/iris/master/src/assets/logo.png"
+	},
+	{
+		"name": "Kodi",
+		"route": "127.0.0.1:4200/",
+		"icon": "https://i0.wp.com/www.cordcuttersnews.com/wp-content/uploads/2018/08/Kodi-Logo.png?ssl=1"
+	},
+	{
+		"name": "Settings",
+		"route": "127.0.0.1:4200/settings",
+		"icon": "https://www.logolynx.com/images/logolynx/61/61f0d7caaee233b43ea8c5359c038c41.png"
+	}
+]

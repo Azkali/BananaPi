@@ -1,0 +1,4 @@
+<p></p>
+<mat-grid-list  gutterSize="12px" cols="2" rowHeight="4:2">
+	<a (click)="goToUrl(app.route)" *ngFor=" let app of menuApp"><mat-grid-tile><img mat-card-image [src]="app.icon" [alt]="app.name"></mat-grid-tile></a>
+</mat-grid-list>

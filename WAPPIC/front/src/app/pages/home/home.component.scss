@@ -1,0 +1,14 @@
+mat-grid-list {
+	// margin-top: 50px !important;
+	// margin-bottom: 50px !important;
+	mat-grid-tile {
+		background-color: lightblue;
+		opacity: 0.8;
+		border: 2px solid white;
+		border-radius: 10px;
+		img {
+			max-width:128px;
+			max-height:128px;
+		}
+	}
+}

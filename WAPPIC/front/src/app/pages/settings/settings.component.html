@@ -1,0 +1,5 @@
+<a *ngFor="let sapp of serviceApp; let i = index" [ngClass]="{'active' : selectedIdx == i }">
+	<mat-card class="raspi-service" (click)="triggerStatusChange(sapp, i); sapp.status ? sapp.status = false : !sapp.status = true">
+		{{sapp.statusStr}} Service : {{sapp.name}} {{sapp.status}}
+	</mat-card>
+</a>
